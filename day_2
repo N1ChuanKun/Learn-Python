@@ -1,15 +1,15 @@
 print('Day 2:30 Days of python programming')
 
-first_name = 'ChuanKun'
-last_name = 'NI'
-full_name = 'NI ChuanKun'
-country = 'China'
-city = 'ShenZhen'
-age = '20'
-year = '2001'
+first_name = 'Ke'
+last_name = 'N'
+full_name = 'N Ke'
+country = 'No Where'
+city = 'No'
+age = '30'
+year = '2022'
 is_married, is_true, is_light_on = False, True, True
 
-print('ChuanKun type: ',type('ChuanKun'))
+print('Ke type: ',type('Ke'))
 print('last name type: ', type(last_name))
 print('is_married type: ', type(is_married))
 print('is_true type: ', type(is_true))
