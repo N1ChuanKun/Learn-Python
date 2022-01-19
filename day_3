@@ -34,6 +34,7 @@ print('when x = ', x)
 print(' ')
 
 print('x ^ 2 + 6 * x + 9 = 0, x')
+#important for!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 for i in range(0,100):
     if (i ^ 2 + 6 * i + 9) == 0:
         x = i
