@@ -1,0 +1,53 @@
+print('Day 2:30 Days of python programming')
+
+first_name = 'ChuanKun'
+last_name = 'NI'
+full_name = 'NI ChuanKun'
+country = 'China'
+city = 'ShenZhen'
+age = '20'
+year = '2001'
+is_married, is_true, is_light_on = False, True, True
+
+print('ChuanKun type: ',type('ChuanKun'))
+print('last name type: ', type(last_name))
+print('is_married type: ', type(is_married))
+print('is_true type: ', type(is_true))
+
+print(len(first_name))
+if len(first_name) > len(last_name):
+    print('1')
+else:
+    print('0')
+
+num_one = 5
+num_two = 4
+total = num_one + num_two
+diff = num_one - num_two
+prod = num_one * num_two
+div = num_one / num_two
+rema = num_two % num_one
+exp = num_one ** num_two
+divi = num_one // num_two
+print(total)
+print(diff)
+print(prod)
+print(div)
+print(rema)
+print(exp)
+print(divi)
+
+radius = 30
+area_of_circle = 3.14 * (radius ** 2)
+circum_of_circle = 2 * 3.14 * radius
+print('Area: ', area_of_circle)
+print('Circum: ', circum_of_circle)
+
+radius_input = int(input('Circle radius: '))    # use 'int(input())'  str --> int 
+area = 3.14 * (radius_input * radius_input)
+print('Area: ', area)
+
+first_name = input('What is your name: ')
+print(first_name)
+age = input('What is your age: ')
+print(age)
