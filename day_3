@@ -71,3 +71,10 @@ print('int(9.8) is 10? ', int(9.8) is 10)
 hour = int(input('Enter hours: '))
 rate = int(input('rate per hour: '))
 print('pay = ', hour*rate)
+
+print("You have lived for %d seconds." %(year * 360 * 24 * 60))
+
+for j in range(1,6):
+    print(str(j).ljust(2), str(1).ljust(2), str(j).ljust(2), str(j*j).ljust(3), str(j*j*j).ljust(4))
+#str.ljust() --> output str at left
+#str.rjust() --> output str at right
