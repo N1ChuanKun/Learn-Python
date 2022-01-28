@@ -1,4 +1,4 @@
-#some bugs in this program. First 25,27 cannot output 'because because because'.
+j#some bugs in this program. First 25,27 cannot output 'because because because'.
 #Second, 34 is not same as the example.
 #Third, 33 haven't done yet
 
